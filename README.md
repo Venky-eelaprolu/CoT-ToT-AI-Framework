@@ -1,53 +1,56 @@
-# CoT-ToT AI Framework using Gemini
+# CoT-ToT AI Framework using Gemini API
 
 ## Overview
 
 This project demonstrates advanced Prompt Engineering techniques using Google's Gemini API by implementing two powerful reasoning frameworks:
 
-* **Chain-of-Thought (CoT)** for explainable sentiment analysis
-* **Tree-of-Thought (ToT)** for AI-assisted hyperparameter optimization
+* **Chain-of-Thought (CoT)** for Explainable Sentiment Analysis
+* **Tree-of-Thought (ToT)** for AI-Assisted Hyperparameter Optimization
 
-The framework combines Generative AI with Machine Learning to produce transparent, step-by-step reasoning and improve decision-making processes.
+The framework combines Generative AI and Machine Learning to perform transparent, step-by-step reasoning and improve decision-making workflows.
 
 ---
 
-## Module 1: Chain-of-Thought (CoT) Sentiment Analysis
+## Features
 
-### Objective
+### Chain-of-Thought (CoT) Sentiment Analysis
 
-Analyze customer reviews and classify them into:
+Analyzes customer reviews and generates explainable sentiment classifications through structured reasoning.
 
-* Positive
-* Neutral
-* Negative
-
-### Features
+#### Capabilities
 
 * Positive phrase extraction
 * Negative phrase extraction
 * Mixed sentiment detection
 * Dominant sentiment identification
-* Final sentiment classification
+* Sentiment classification (Positive, Neutral, Negative)
 * Explainable AI reasoning
 
-### Workflow
+#### Workflow
 
-1. Load customer reviews from a CSV file.
-2. Send reviews to Gemini API.
-3. Apply Chain-of-Thought prompting.
-4. Generate step-by-step reasoning.
-5. Assign the final sentiment label.
-6. Save results to a text file.
+```text
+Customer Reviews
+       │
+       ▼
+ Gemini API
+       │
+       ▼
+ Chain-of-Thought Reasoning
+       │
+       ▼
+ Sentiment Classification
+       │
+       ▼
+ sentiment_results.txt
+```
 
 ---
 
-## Module 2: Tree-of-Thought (ToT) Hyperparameter Analysis
+### Tree-of-Thought (ToT) Hyperparameter Analysis
 
-### Objective
+Uses Gemini to evaluate multiple Random Forest configurations and select the best-performing model through structured reasoning.
 
-Evaluate multiple Random Forest configurations and identify the best-performing model using structured reasoning.
-
-### Features
+#### Capabilities
 
 * Cross-validation analysis
 * Training accuracy evaluation
@@ -56,15 +59,26 @@ Evaluate multiple Random Forest configurations and identify the best-performing 
 * Model complexity comparison
 * Best hyperparameter selection
 
-### Workflow
+#### Workflow
 
-1. Load the Breast Cancer dataset.
-2. Train multiple Random Forest models.
-3. Calculate performance metrics.
-4. Send evaluation results to Gemini API.
-5. Apply Tree-of-Thought reasoning.
-6. Compare reasoning branches.
-7. Select the optimal configuration.
+```text
+Breast Cancer Dataset
+          │
+          ▼
+ Random Forest Models
+          │
+          ▼
+ Hyperparameter Evaluation
+          │
+          ▼
+ Gemini API
+          │
+          ▼
+ Tree-of-Thought Reasoning
+          │
+          ▼
+ Best Configuration Selection
+```
 
 ---
 
@@ -76,9 +90,25 @@ Evaluate multiple Random Forest configurations and identify the best-performing 
 * Pandas
 * NumPy
 * Prompt Engineering
+* Generative AI
 * Chain-of-Thought (CoT)
 * Tree-of-Thought (ToT)
 * Machine Learning
+
+---
+
+## Project Structure
+
+```text
+CoT-ToT-AI-Framework/
+│
+├── sentiment_analysis_cot.py
+├── hyperparameter_analysis_tot.py
+├── reviews.csv
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ---
 
@@ -108,40 +138,58 @@ GEMINI_API_KEY=your_api_key
 ## Run Chain-of-Thought Sentiment Analysis
 
 ```bash
-python CoT.py
+python sentiment_analysis_cot.py
 ```
 
-Output:
+### Output
 
-* sentiment_results.txt
+```text
+sentiment_results.txt
+```
 
 ---
 
 ## Run Tree-of-Thought Hyperparameter Analysis
 
 ```bash
-python ToT.py
+python hyperparameter_analysis_tot.py
 ```
 
-Outputs:
+### Outputs
 
-* hyperparameter_results.csv
-* tot_analysis.txt
+```text
+hyperparameter_results.csv
+tot_analysis.txt
+```
 
 ---
 
 ## Skills Demonstrated
 
 * Prompt Engineering
+* Large Language Models (LLMs)
 * Generative AI
 * Explainable AI (XAI)
-* Large Language Models (LLMs)
 * Chain-of-Thought Reasoning
 * Tree-of-Thought Reasoning
-* Machine Learning
-* Hyperparameter Optimization
 * Sentiment Analysis
+* Hyperparameter Optimization
+* Random Forest Modeling
 * Model Evaluation
+* Cross Validation
+* Python Development
+
+---
+
+## Learning Outcomes
+
+Through this project, I explored:
+
+* Advanced prompting strategies for LLMs
+* Explainable AI techniques
+* AI-assisted decision-making
+* Integration of Gemini API with Machine Learning workflows
+* Structured reasoning using CoT and ToT frameworks
 
 ---
 
@@ -150,3 +198,5 @@ Outputs:
 **Venkata Durga Rao Eelaprolu**
 
 GenAI Intern | AI & Machine Learning Enthusiast
+
+GitHub: https://github.com/Venky-eelaprolu
