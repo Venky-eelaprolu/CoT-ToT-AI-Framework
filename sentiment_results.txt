@@ -1,0 +1,206 @@
+Review Number: 1
+
+Step 1 - Positive Phrases:
+* sound quality is amazing
+* battery life lasts all day
+* Highly recommended
+
+Step 2 - Negative Phrases:
+* None
+
+Step 3 - Mixed Sentiment:
+No
+
+Step 4 - Dominant Sentiment:
+Positive
+
+Step 5 - Final Label:
+Positive
+
+Step 6 - Explanation:
+The review is entirely complimentary, praising the core features of the product and offering a high recommendation.
+
+---
+
+Review Number: 2
+
+Step 1 - Positive Phrases:
+* Good product
+* Works as expected
+
+Step 2 - Negative Phrases:
+* delivery was delayed
+
+Step 3 - Mixed Sentiment:
+Yes
+
+Step 4 - Dominant Sentiment:
+Neither sentiment strongly dominates.
+
+Step 5 - Final Label:
+Neutral
+
+Step 6 - Explanation:
+The customer is satisfied with the product performance itself, but the service issue creates a balance between positive and negative feedback.
+
+---
+
+Review Number: 3
+
+Step 1 - Positive Phrases:
+* None
+
+Step 2 - Negative Phrases:
+* Terrible experience
+* stopped working
+
+Step 3 - Mixed Sentiment:
+No
+
+Step 4 - Dominant Sentiment:
+Negative
+
+Step 5 - Final Label:
+Negative
+
+Step 6 - Explanation:
+The reviewer highlights a critical product failure and labels the experience as terrible, indicating complete dissatisfaction.
+
+---
+
+Review Number: 4
+
+Step 1 - Positive Phrases:
+* Excellent noise cancellation
+* comfortable fit
+* Worth every penny
+
+Step 2 - Negative Phrases:
+* None
+
+Step 3 - Mixed Sentiment:
+No
+
+Step 4 - Dominant Sentiment:
+Positive
+
+Step 5 - Final Label:
+Positive
+
+Step 6 - Explanation:
+The review provides high praise for multiple specific features and confirms the product provides good value for the price.
+
+---
+
+Review Number: 5
+
+Step 1 - Positive Phrases:
+* packaging was okay
+
+Step 2 - Negative Phrases:
+* audio quality is average
+* Nothing special
+
+Step 3 - Mixed Sentiment:
+Yes
+
+Step 4 - Dominant Sentiment:
+Neither sentiment strongly dominates (leaning towards neutral/mediocre).
+
+Step 5 - Final Label:
+Neutral
+
+Step 6 - Explanation:
+The reviewer expresses indifference, noting that the product meets basic expectations but lacks any features that would make it stand out or warrant a positive rating.
+
+---
+
+Review Number: 6
+
+Step 1 - Positive Phrases:
+* None
+
+Step 2 - Negative Phrases:
+* Very poor battery backup
+* customer support never responded
+
+Step 3 - Mixed Sentiment:
+No
+
+Step 4 - Dominant Sentiment:
+Negative
+
+Step 5 - Final Label:
+Negative
+
+Step 6 - Explanation:
+The review cites two major issues: a functional defect regarding battery life and a failure in customer service, leading to a strong negative stance.
+
+---
+
+Review Number: 7
+
+Step 1 - Positive Phrases:
+* Fast charging
+* crystal-clear sound
+* I love these earbuds
+
+Step 2 - Negative Phrases:
+* None
+
+Step 3 - Mixed Sentiment:
+No
+
+Step 4 - Dominant Sentiment:
+Positive
+
+Step 5 - Final Label:
+Positive
+
+Step 6 - Explanation:
+The customer expresses strong enthusiasm for the product's performance, using clear, positive language.
+
+---
+
+Review Number: 8
+
+Step 1 - Positive Phrases:
+* arrived on time
+
+Step 2 - Negative Phrases:
+* performance is just acceptable
+
+Step 3 - Mixed Sentiment:
+Yes
+
+Step 4 - Dominant Sentiment:
+Neither sentiment strongly dominates.
+
+Step 5 - Final Label:
+Neutral
+
+Step 6 - Explanation:
+The prompt delivery is positive, but the performance description is lukewarm, resulting in a neutral assessment.
+
+---
+
+Review Number: 9
+
+Step 1 - Positive Phrases:
+* None
+
+Step 2 - Negative Phrases:
+* Build quality feels cheap
+* connectivity issues occur frequently
+
+Step 3 - Mixed Sentiment:
+No
+
+Step 4 - Dominant Sentiment:
+Negative
+
+Step 5 - Final Label:
+Negative
+
+Step 6 - Explanation:
+The review identifies both physical build quality problems and functional connectivity issues, indicating significant product dissatisfaction.
