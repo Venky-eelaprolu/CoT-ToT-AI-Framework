@@ -2,4 +2,8 @@
 __pycache__/
 *.pyc
 .venv/
+
 outputs/
+sentiment_results.txt
+tot_analysis.txt
+hyperparameter_results.csv
